@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+logs/*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Coverage and testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+*.bak
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Compiled files
+*.class
+*.pyc
+*.pyo
+*.exe
+*.o
+*.a
+
+# Miscellaneous
+*.log
+*.bak
+*.pid
+*.seed
+*.pid.lock
