@@ -1,17 +1,13 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import AppRouter from "./AppRouter";
 import './App.css'
 
 function App() {
 
   return (
-      <div
-        className='flex justify-center items-center w-screen h-screen'
-      >
-        <h1
-          className='text-black text-4xl font-bold'
-        >Hello</h1>
-
-      </div>
+    <Router>
+      <AppRouter/>
+    </Router>
   )
 }
 
