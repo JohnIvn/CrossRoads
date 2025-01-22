@@ -62,7 +62,7 @@ export default function CaptureHeader() {
 					</Link>
 					<Link
 						to="/crossroad/register"
-						className="flex justify-center items-center w-32 h-4/5 gap-2 font-bold text-black border border-zinc-950 outline-none focus:outline-1 hover:bg-zinc-600 hover:text-white hover:outline-white transition-all duration-300"
+						className="flex justify-center items-center w-32 h-4/5 gap-2 font-bold bg-zinc-800 text-white rounded-full border border-zinc-950 outline-none focus:outline-1 hover:bg-white hover:text-black hover:outline-white transition-all duration-300"
 					>
 						Try it now
 					</Link>

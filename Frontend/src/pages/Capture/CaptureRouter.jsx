@@ -1,11 +1,27 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import CaptureHeader from "../../partials/CaptureHeader";
+import Capture from "./Capture";
 
-export default function CaptureRouter () {
+
+export default function CaptureRouter() {
 
 	return (
-		<Router>
-			<Route path="" element={ <h1>Temporary Text</h1> } />
-		</Router>
+		<section
+			className='flex flex-col justify-start items-center w-screen h-screen'
+		>
+			<CaptureHeader />
+			<div
+				className='flex flex-col justify-start items-center w-4/5 h-full mt-10'
+			>
+				<Routes>
+					<Route path="*" element={<Capture/>} />
+				</Routes>
+			</div>
+
+
+		</section>
+
+
 	)
 
 }
