@@ -9,11 +9,11 @@ export default function CaptureHeader() {
 	const headerButtons = [
 		{
 			label: 'Services',
-			content: ['Scheduler', 'Health Manager', 'Fitness Tracker'],
+			content: ['Temp', 'Temp', 'Temp'],
 		},
 		{
 			label: 'Products',
-			content: ['Workout Equipment', 'Health Products'],
+			content: ['Temp', 'Temp'],
 		},
 		{
 			label: 'About Us',
