@@ -18,14 +18,14 @@ export default function Capture() {
 			>
 
 				<Link
-					to=''
+					to='/crossroad/register'
 					className="flex justify-center items-center text-center text-white font-medium px-3 h-10 rounded-lg bg-gray-800 border border-gray-800 hover:bg-transparent hover:text-black transition-all duration-300"
 				>
 					Try Our Demo
 				</Link>
 
 				<Link
-					to=''
+					to='/crossroad/login'
 					className="flex justify-center items-center text-center text-black font-medium px-3 h-10 rounded-lg bg-transparent border border-gray-800 hover:bg-gray-800 hover:text-white transition-all duration-300"
 				>
 					Sign Up

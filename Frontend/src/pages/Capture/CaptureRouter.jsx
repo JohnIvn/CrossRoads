@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import CaptureHeader from "../../partials/CaptureHeader";
 import Capture from "./Capture";
-
+import Login from "../Account/Login";
 
 export default function CaptureRouter() {
 
@@ -14,7 +14,8 @@ export default function CaptureRouter() {
 				className='flex flex-col justify-start items-center w-4/5 h-full mt-10'
 			>
 				<Routes>
-					<Route path="*" element={<Capture/>} />
+					<Route path="" element={<Capture/>} />
+					<Route path="login" element={<Login/>} />
 				</Routes>
 			</div>
 
