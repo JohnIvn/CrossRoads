@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import CaptureHeader from "../../partials/CaptureHeader";
 import Capture from "./Capture";
 import Login from "../Account/Login";
-
+import Register from "../Account/Register";
 export default function CaptureRouter() {
 
 	return (
@@ -16,6 +16,7 @@ export default function CaptureRouter() {
 				<Routes>
 					<Route path="" element={<Capture/>} />
 					<Route path="login" element={<Login/>} />
+					<Route path="register" element={<Register/>} />
 				</Routes>
 			</div>
 
