@@ -11,7 +11,7 @@ export default function CaptureRouter() {
 		>
 			<CaptureHeader />
 			<div
-				className='flex flex-col justify-start items-center w-4/5 h-full mt-10'
+				className='flex flex-col justify-start items-center w-full lg:w-4/5 h-full mt-10 transition-all duration-300'
 			>
 				<Routes>
 					<Route path="" element={<Capture/>} />

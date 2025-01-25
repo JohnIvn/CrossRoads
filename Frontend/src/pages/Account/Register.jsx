@@ -11,18 +11,17 @@ export default function Register() {
 		setVisible(prev => !prev)
 	}
 
-
 	return (
 
 		<section
 			className='flex flex-col justify-center items-center w-full h-full border-zinc-400 border-x-2'
 		>
 			<form
-				className="flex flex-col justify-center items-center w-2/5 gap-2 border border-zinc-200 h-auto p-2 shadow-2xl shadow-gray-400 rounded-xl"
+				className="flex flex-col justify-center items-center w-full md:w-2/5 gap-2 border border-zinc-200 h-auto p-2 shadow-2xl shadow-gray-400 rounded-xl transition-all duration-300"
 				action=""
 			>
 				<h1
-					className='flex text-center justify-center items-center flex-wrap text-3xl font-bold text-zinc-800'
+					className='flex text-center justify-center items-center flex-wrap text-2xl md:text-3xl font-bold text-zinc-800 transition-all duration-300'
 				>
 					Register
 				</h1>
@@ -131,9 +130,9 @@ export default function Register() {
 				>
 					<Link
 						className="font-medium text-sm transition-all duration-300 text-zinc-600 hover:text-zinc-950"
-						to='/crossroad/register'
+						to='/crossroad/login'
 					>
-						Sign Up?
+						Sign In?
 					</Link>
 
 					<Link

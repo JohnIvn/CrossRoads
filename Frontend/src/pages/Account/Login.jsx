@@ -19,7 +19,7 @@ export default function Login() {
 		>
 
 			<form
-				className="flex flex-col justify-center items-center w-2/5 gap-2 border border-zinc-200 h-2/5 p-2 shadow-2xl shadow-gray-400 rounded-xl"
+				className="flex flex-col justify-center items-center w=3/5 md:w-2/5 gap-2 border border-zinc-200 h-auto p-2 shadow-2xl shadow-gray-400 rounded-xl"
 				action=""
 			>
 

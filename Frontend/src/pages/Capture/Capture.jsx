@@ -8,7 +8,7 @@ export default function Capture() {
 			className='flex flex-col justify-center items-center w-full h-full border-zinc-400 border-x-2 gap-4'
 		>
 			<h1
-				className='flex text-center justify-center items-center flex-wrap w-1/3 h-24 text-5xl font-bold text-zinc-800'
+				className='flex text-center justify-center items-center flex-wrap w-64 lg:w-96 h-auto text-3xl lg:text-5xl font-bold text-zinc-800 transition-all'
 			>
 				Connect to stores around the Globe
 			</h1>
